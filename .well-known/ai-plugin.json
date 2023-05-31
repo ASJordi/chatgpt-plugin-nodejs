@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "ToDo Plugin",
+  "name_for_model": "todo",
+  "description_for_human": "Manage a ToDo List",
+  "description_for_model": "Plugin to manage a ToDo list for ChatGPT. You can add, remove, edit and view items",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:3000/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:3000/icon.png",
+  "contact_email": "jord7as@gmail.com",
+  "legal_info_url": "https://asjordi.dev/legal"
+}
